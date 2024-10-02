@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/265b499352.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Volvo Cars</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Volvo</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">Våra bilar</li>
+                <li class="nav__item">Köpa</li>
+                <li class="nav__item">Äga</li>
+                <li class="nav__item">Om oss</li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <a href="#" class="nav__member"><i class="fa-solid fa-user"></i></a>
+            <a href="#" class="nav__search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <button class="nav__menu nav__menu--collapsed">Meny</button>
+        </aside>
+    </header>
+
+    <picture class="hero">
+        <!-- Desktop Image -->
+        <source srcset="./assets/images/xc90-phev-hero-21x9-desktop.webp" media="(min-width: 1024px)">
+
+        <!-- Tablet Image -->
+        <source srcset="./assets/images/xc90-phev-hero-1x1-tablet.jpeg" media="(min-width: 768px)">
+
+        <!-- Mobile Image (default) -->
+        <img src="./assets/images/xc90-phev-4x5-mobile.webp" alt="Responsive Image">
+        <div class="overlay">
+            Bilen med en plane B
+        </div>
+    </picture>
+
+</body>
+
+</html>
